@@ -1,10 +1,10 @@
 import React from "react";
-import HomePage from "./pages/HomePage";
+import BuildingInfo from "./components/BuildingInfo";
 
 const App = () => {
   return (
     <div>
-      <HomePage />
+      <BuildingInfo />
     </div>
   );
 };
