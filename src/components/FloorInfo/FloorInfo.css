@@ -1,0 +1,43 @@
+.floor-info-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.floor-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.floor-table th,
+.floor-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.floor-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.floor-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.floor-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}

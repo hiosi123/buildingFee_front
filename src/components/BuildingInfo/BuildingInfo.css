@@ -1,0 +1,24 @@
+.building-info {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.building-info h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.building-info p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.building-info strong {
+  display: inline-block;
+  width: 180px;
+}
