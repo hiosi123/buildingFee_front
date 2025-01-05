@@ -1,16 +1,16 @@
 import React from "react";
-import BuildingInfo from "./components/BuildingInfo/BuildingInfo";
-import FloorInfo from "./components/FloorInfo/FloorInfo";
-import ChargeForm from "./components/ChargeForm/ChargeForm";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import FloorInfo from "./components/FloorInfo";
+import ChargeInfo from "./components/ChargeInfo";
 
 const App = () => {
   return (
-    <div>
-      <h1>Building Management System</h1>
-      <BuildingInfo />
-      <FloorInfo />
-      <ChargeForm />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<FloorInfo />} />
+        <Route path="/charge-info/:floorId" element={<ChargeInfo />} />
+      </Routes>
+    </Router>
   );
 };
 
